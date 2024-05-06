@@ -1,0 +1,21 @@
+{
+    "Name": "Amp",
+    "Manufacturer": "Blackrock Neurotech",
+    "ProductName": "Analog Front-End Amplifier",
+    "Connections": {
+        "Inputs":{
+            "Neural":{
+                "Connector":"Samtec 40-pin QSE",
+                "Number":4,
+                "SignalsPerConnector":32
+            }            
+        },
+        "Outputs":{
+            "Neural":{
+                "Connector":"FiberOptic",
+                "Number":1,
+                "SignalsPerConnector":128
+            }
+        }
+    }
+}

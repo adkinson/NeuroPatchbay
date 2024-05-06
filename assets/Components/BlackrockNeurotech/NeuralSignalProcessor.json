@@ -1,0 +1,43 @@
+{
+    "Name": "AnalogNSP",
+    "Manufacturer": "Blackrock Neurotech",
+    "ProductName": "NeuroPort Neural Signal Processor",
+    "Connections": {
+        "Inputs":{
+            "Neural":{
+                "Connector":"FiberOptic",
+                "Number":2,
+                "SignalsPerConnector":128
+            },
+            "Analog":{
+                "Connector":"BNC",
+                "Number":16
+            },
+            "Digital":{
+                "Connector":"DB37 Male",
+                "Number":1,
+                "SignalsPerConnector":16
+            },
+            "Serial":{
+                "Connector":"DB9 Male",
+                "Number":1
+            }
+        },
+        "Outputs":{
+            "Analog":{
+                "Connector":"BNC",
+                "Number":4
+            },
+            "Digital":{
+                "Connector":"BNC",
+                "Number":4
+            }
+        },
+        "Transmission":{
+            "Ethernet":{
+                "Connector":"RJ45",
+                "Number":1
+            }
+        }
+    }
+}
