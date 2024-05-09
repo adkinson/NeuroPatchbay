@@ -1,0 +1,23 @@
+{
+    "Name": "SplitterBox",
+    "Manufacturer": "Blackrock Neurotech",
+    "ProductName": "64-CH SR SplitterBox",
+    "Connections": {
+        "Inputs": {
+            "Neural": {
+                "Connector": "DB44 Female",
+                "Number": 4,
+                "SignalsPerConnector": 32
+            }
+        },
+        "Outputs": {
+            "Neural": {
+                "Connector": "Samtec 40-pin QSE",
+                "Number": 2
+            }
+        },
+        "Map":{
+            "Neural": [[5],[6],[5],[6],[null],[null]]
+        }
+    }
+}

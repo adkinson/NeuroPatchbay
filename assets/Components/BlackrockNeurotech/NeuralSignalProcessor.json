@@ -38,6 +38,9 @@
                 "Connector":"RJ45",
                 "Number":1
             }
+        },
+        "Map":{
+            "Neural": [[null],[null]]
         }
     }
 }

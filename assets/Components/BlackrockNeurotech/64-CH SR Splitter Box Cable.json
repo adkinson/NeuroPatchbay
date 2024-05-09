@@ -1,0 +1,23 @@
+{
+    "Name": "SplitterBoxCable",
+    "Manufacturer": "Blackrock Neurotech",
+    "ProductName": "64-CH SR Splitter Box Cable",
+    "Connections": {
+        "Inputs": {
+            "Neural": {
+                "Connector": "DB78 Male",
+                "Number": 1,
+                "SignalsPerConnector": 64
+            }
+        },
+        "Outputs": {
+            "Neural": {
+                "Connector": "Samtec 40-pin QSE",
+                "Number": 2
+            }
+        },
+        "Map":{
+            "Neural": [[2,3],[null,null],[null,null]]
+        }
+    }
+}
