@@ -1,0 +1,31 @@
+{
+    "Name": "CerePlex",
+    "Manufacturer": "Blackrock Neurotech",
+    "ProductName": "CerePlex Direct",
+    "Connections": {
+        "Inputs":{
+            "Neural":{
+                "Connector":"HDMI",
+                "Number":3
+            },
+            "Analog":{
+                "Connector":"BNC",
+                "Number":3
+            },
+            "Digital":{
+                "Connector":"DB37 Male",
+                "Number":1,
+                "SignalsPerConnector":16
+            }
+        },
+        "Transmission":{
+            "Data":{
+                "Connector":"RJ45",
+                "Number":1
+            }
+        },
+        "Map":{
+            "Neural": [[null],[null],[null]]
+        }
+    }
+}

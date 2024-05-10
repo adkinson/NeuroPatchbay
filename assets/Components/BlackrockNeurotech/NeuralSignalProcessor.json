@@ -1,5 +1,5 @@
 {
-    "Name": "NSP",
+    "Name": "NeuralSignalProcessor",
     "Manufacturer": "Blackrock Neurotech",
     "ProductName": "NeuroPort Neural Signal Processor",
     "Connections": {
@@ -34,7 +34,7 @@
             }
         },
         "Transmission":{
-            "Ethernet":{
+            "Data":{
                 "Connector":"RJ45",
                 "Number":1
             }

@@ -1,0 +1,33 @@
+{
+    "Name": "Cerestim",
+    "Manufacturer": "Blackrock Neurotech",
+    "ProductName": "Cerestim R96",
+    "Connections": {
+        "Inputs":{
+            "Analog":{
+                "Connector":"BNC",
+                "Number":1
+            }
+        },
+        "Outputs":{
+            "Neural":{
+                "Connector":"Samtec 40-Pin QSE",
+                "Number":3,
+                "SignalsPerConnector":32
+            },
+            "Analog":{
+                "Connector":"BNC",
+                "Number":1
+            }
+        },
+        "Transmission":{
+            "Serial":{
+                "Connector":"USB Type-B",
+                "Number":1
+            }
+        },
+        "Map":{
+            "Neural": [[null],[null],[null]]
+        }
+    }
+}

@@ -1,24 +1,24 @@
 {
-    "Name": "Amplifier",
+    "Name": "DigitalHub",
     "Manufacturer": "Blackrock Neurotech",
-    "ProductName": "Analog Front-End Amplifier",
+    "ProductName": "Digital Hub",
     "Connections": {
         "Inputs":{
             "Neural":{
-                "Connector":"Samtec 40-pin QSE",
+                "Connector":"HDMI",
                 "Number":4,
-                "SignalsPerConnector":32
-            }            
+                "SignalsPerConnector":128
+            }
         },
         "Outputs":{
             "Neural":{
-                "Connector":"FiberOptic",
+                "Connector":["FiberOptic","RJ45"],
                 "Number":1,
                 "SignalsPerConnector":128
             }
         },
         "Map":{
-            "Neural": [[5],[5],[5],[5],[null]]
+            "Neural": [[1],[2],[3],[4]]
         }
     }
 }

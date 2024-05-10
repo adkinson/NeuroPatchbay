@@ -1,0 +1,23 @@
+{
+    "Name": "MicrowireHeadstage",
+    "Manufacturer": "Blackrock Neurotech",
+    "ProductName": "NeuroLatch",
+    "Connections": {
+        "Inputs":{
+            "Neural":{
+                "Connector":"Custom",
+                "Number":4,
+                "SignalsPerConnector":8
+            }
+        },
+        "Outputs":{
+            "Neural":{
+                "Connector":"HDMI",
+                "Number":1
+            }
+        },
+        "Map":{
+            "Neural": [[1],[2],[3],[4]]
+        }
+    }
+}
