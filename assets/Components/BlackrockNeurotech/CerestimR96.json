@@ -27,7 +27,7 @@
             }
         },
         "Map":{
-            "Neural": [[null],[null],[null]]
+            "Neural": []
         }
     }
 }

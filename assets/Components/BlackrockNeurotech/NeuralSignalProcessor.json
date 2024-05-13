@@ -40,7 +40,7 @@
             }
         },
         "Map":{
-            "Neural": [[null],[null]]
+            "Neural": []
         }
     }
 }

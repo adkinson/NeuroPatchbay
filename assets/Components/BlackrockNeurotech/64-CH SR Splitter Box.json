@@ -13,11 +13,12 @@
         "Outputs": {
             "Neural": {
                 "Connector": "Samtec 40-pin QSE",
-                "Number": 2
+                "Number": 2,
+                "SignalsPerConnector": 32
             }
         },
         "Map":{
-            "Neural": [[5],[6],[5],[6],[null],[null]]
+            "Neural": [[1,5],[2,6],[3,5],[4,6]]
         }
     }
 }

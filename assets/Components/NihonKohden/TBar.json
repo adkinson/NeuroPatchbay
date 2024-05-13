@@ -3,19 +3,15 @@
     "Manufacturer": "Nihon Kohden",
     "ProductName": "Neurofax EEG-1200",
     "Connections": {
-        "Inputs":{
-            "Neural":{
-                "Connector":"TouchProof",
-                "Number":64,
-                "SignalsPerConnector":1
-            }
-        },
         "Outputs":{
             "Neural":{
                 "Connector":"Honda PCR-80LFD",
                 "Number":1,
                 "SignalsPerConnector":64
             }
+        },
+        "Map":{
+            "Neural": []
         }
     }
 }

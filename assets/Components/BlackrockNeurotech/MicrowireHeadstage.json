@@ -13,11 +13,12 @@
         "Outputs":{
             "Neural":{
                 "Connector":"HDMI",
-                "Number":1
+                "Number":1,
+                "SignalsPerConnector": 32
             }
         },
         "Map":{
-            "Neural": [[1],[2],[3],[4]]
+            "Neural": [[1,5],[2,5],[3,5],[4,5]]
         }
     }
 }
