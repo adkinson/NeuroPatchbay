@@ -7,7 +7,7 @@
             "Neural":{
                 "Connector":"HDMI",
                 "Number":4,
-                "SignalsPerConnector":128
+                "SignalsPerConnector":32
             }
         },
         "Outputs":{

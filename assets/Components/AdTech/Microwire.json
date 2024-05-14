@@ -1,0 +1,17 @@
+{
+    "Name": "MicroBundle",
+    "Manufacturer": "AdTech",
+    "ProductName": "Behnke Fried/Micro Inner Wire Bundle",
+    "Connections": {
+        "Outputs":{
+            "Neural":{
+                "Connector":"sEEG",
+                "Number":1,
+                "SignalsPerConnector":8
+            }
+        },
+        "Map":{
+            "Neural": []
+        }
+    }
+}
