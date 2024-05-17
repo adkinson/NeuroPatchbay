@@ -1,7 +1,7 @@
 {
-    "Name": "MicrowireHeadstage",
+    "Name": "MicroHeadstage",
     "Manufacturer": "Blackrock Neurotech",
-    "ProductName": "NeuroLatch",
+    "ProductName": "NeuroSnap",
     "Connections": {
         "Inputs":{
             "Neural":{

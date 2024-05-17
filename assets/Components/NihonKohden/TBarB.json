@@ -1,0 +1,17 @@
+{
+    "Name": "TBarB",
+    "Manufacturer": "Nihon Kohden",
+    "ProductName": "Neurofax EEG-1200",
+    "Connections": {
+        "Outputs":{
+            "Neural":{
+                "Connector":"Honda PCR-80LFD",
+                "Number":1,
+                "SignalsPerConnector":64
+            }
+        },
+        "Map":{
+            "Neural": []
+        }
+    }
+}
